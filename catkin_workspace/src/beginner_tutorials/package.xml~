@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package>
+  <name>beginner_tutorials</name>
+  <version>0.0.0</version>
+  <description>Hello Ros package</description>
+
+  <maintainer email="ahmed.abdelbaki@uni-bonn.de">Ahmed Abdelbaki</maintainer>
+
+  <license>TODO</license>
+
+  <!-- Use buildtool_depend for build tool packages: -->
+  <buildtool_depend>catkin</buildtool_depend>
+  <!-- Use build_depend for packages you need at compile time: -->
+  <build_depend>roscpp</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>std_msgs</build_depend>
+   <!-- Use run_depend for packages you need at runtime: -->
+  <run_depend>roscpp</run_depend>
+  <run_depend>rospy</run_depend>
+  <run_depend>std_msgs</run_depend>
+
+</package>
